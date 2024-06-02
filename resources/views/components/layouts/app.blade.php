@@ -13,6 +13,7 @@
     </head>
     <body>
         @livewire('components.navbar')
+        @livewire('components.home.hero-section')
         {{ $slot }}
     </body>
 </html>
