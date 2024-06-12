@@ -1,7 +1,7 @@
 <div>
     <div class="bg-[#f9f3ec] flex items-center justify-center min-h-[50rem]">
-    <div>
-    <div class="max-w-[500px]">
+    <div class="flex items-center gap-8">
+    <div class="max-w-[500px] flex-row">
     <img src="{{asset('images/doggy.png')}}" alt="dog" class="w-screen">
     </div>
     <div>
@@ -18,3 +18,4 @@
 </div>
    
 </div>
+

@@ -42,8 +42,8 @@
             </form>
         </div>
         <div class="flex gap-10">
-            <a href="">Home</a>
-            <a href="">Shop</a>
+            <a wire:navigate href="{{route('home')}}">Home</a>
+            <a wire:navigate href="{{route('shop')}}">Shop</a>
             <a href="">Contact</a>
            
 

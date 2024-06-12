@@ -13,7 +13,8 @@
     </head>
     <body>
         @livewire('components.navbar')
-        @livewire('components.home.hero-section')
+        {{-- @livewire('components.home.hero-section') --}}
         {{ $slot }}
+        @livewire('components.footer')
     </body>
 </html>
