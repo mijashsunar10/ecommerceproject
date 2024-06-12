@@ -49,7 +49,7 @@
 
         </div>
         <div class="flex gap-10">
-            <a href="">
+            <a wire:navigate href="{{route('login')}}">
                 <i class="fa-solid fa-user"></i>
             </a>
             <a href="">
