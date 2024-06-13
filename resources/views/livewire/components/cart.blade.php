@@ -60,14 +60,12 @@
                     <div>
                         $12
                     </div>
-            </div>
-
-           
-            
+            </div>       
         </div>
         <div class="mt-4">
 
-            <button class="bg-[#EEEBE6] rounded text-white font-bold px-4 py-3 border w-full">CheckOut</button>
+            <a wire:navigate href="{{route('checkout')}}" 
+            class="bg-[#cdab74] rounded text-white font-bold px-4 py-3 border block text-center w-full">CheckOut</a>
         </div>
     </div>
 </div>
